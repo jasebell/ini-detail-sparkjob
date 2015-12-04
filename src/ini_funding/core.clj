@@ -7,7 +7,7 @@
             [clojure.java.io :as io]
             [clojure.string :as str]))
 
-(def filepath "/Users/jasonbell/Documents/work/projects/ini-funding/resources/InvestNI_local_2011_14.csv")
+(def filepath "/change/path/to/your/csv/file/InvestNI_local_2011_14.csv")
 
 (def fieldnames [:business-name :address-no :address1 :address2 :address3 :town :county :country :postcode :total-assistance-offered  :date-offer-made :accepted-date :source-of-funding :jobs-to-be-created :total-investment-by-company :sector :start-up :conditions-of-offer :district-council :no-of-employees-in-company])
 
